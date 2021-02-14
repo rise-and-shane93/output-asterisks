@@ -6,7 +6,7 @@ public class asterisks {
 
         System.out.print( "\n\nEnter the number of desired asterisks: " );
         int numAsterisks = input.nextInt();
-        System.out.print( "\nNow enter a 1 or a 2 to represent if you want\nthe program to output the first or second pattern: " );
+        System.out.print( "\nEnter a 1 for the output to be an ascending pattern\nor a 2 for a descending pattern: " );
         int userPattern = input.nextInt();
 
         if (userPattern == 1) {
